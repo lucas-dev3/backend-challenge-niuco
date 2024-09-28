@@ -18,6 +18,8 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api-docs', app, document);
 
+  // Estou utilizando esse comentario para testar o pipeline
+
   await app.listen(configService.get('app.port'), () => {
     console.log(`Server running on port ${configService.get('app.port')}`);
   });
