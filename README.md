@@ -1,73 +1,83 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+# Api Niuco SaaS integration
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+O projeto consiste na criação de uma aplicação de integração com a API de um SaaS, responsável por coletar e processar dados de usuários cadastrados. A aplicação terá como objetivo extrair informações de usuários, aplicar transformações conforme regras específicas e exibir os dados de forma consolidada.
 
-## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Variáveis de Ambiente
 
-## Installation
+Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de ambiente no seu .env
+
+`PORT=3000`
+
+`API_MOCK_URL=http://jsonserver`
+
+
+## Rodando localmente
+
+Clone o projeto
 
 ```bash
-$ npm install
+  git clone https://github.com/lucas-dev3/backend-challenge-niuco.git
 ```
 
-## Running the app
+Entre no diretório do projeto
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+  cd backend-challenge-niuco
 ```
 
-## Test
+Instale as dependências
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+  npm install
 ```
 
-## Support
+Inicie o servidor
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+```bash
+  npm run start
+```
 
-## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+## Rodando com Docker
 
-## License
+Clone o projeto
 
-Nest is [MIT licensed](LICENSE).
+```bash
+  git clone https://github.com/lucas-dev3/backend-challenge-niuco.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd backend-challenge-niuco
+```
+
+Inicie o serviço
+
+```bash
+  docker compose up --build
+```
+
+
+## Documentação
+[Documentação Swagger](http://localhost:3000/api-docs)
+
+
+## Rodando os testes
+
+Para rodar os testes, rode o seguinte comando. Se for rodar localmente.
+
+```bash
+  npm run test
+```
+
+## Stack Utilizada
+
+### Back-end
+- **Node.js**: Ambiente de execução para JavaScript no lado do servidor, proporcionando alta performance e escalabilidade.
+- **NestJS**: Framework progressivo para construir aplicações eficientes e escaláveis em Node.js, utilizando TypeScript.
+- **json-server**: Ferramenta que permite criar uma API RESTful rápida e fácil para desenvolvimento e testes.
+- **Docker**: Plataforma para desenvolver, enviar e executar aplicações em contêineres, garantindo consistência entre ambientes.
+- **CI/CD**: Integração Contínua e Entrega Contínua para automação de testes e deploys, garantindo a qualidade e a rapidez nas entregas.
