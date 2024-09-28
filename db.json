@@ -1,0 +1,244 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Alice Nascimento",
+            "email": "alice.nascimento@niuco.com.br",
+            "last_activity": 1622499200,
+            "role": "viewer",
+            "status": "enabled"
+        },
+        {
+            "id": 2,
+            "name": "Bruno Silva",
+            "email": "bruno.silva@niuco.com.br",
+            "last_activity": 1622585600,
+            "role": "admin",
+            "status": "enabled"
+        },
+        {
+            "id": 3,
+            "name": "Carla Santos",
+            "email": "carla.santos@niuco.com.br",
+            "last_activity": 1622672000,
+            "role": "editor",
+            "status": "disabled"
+        },
+        {
+            "id": 4,
+            "name": "Daniel Oliveira",
+            "email": "daniel.oliveira@niuco.com.br",
+            "last_activity": 1622758400,
+            "role": "system",
+            "status": "enabled"
+        },
+        {
+            "id": 5,
+            "name": "Eduarda Ferreira",
+            "email": "eduarda.ferreira@niuco.com.br",
+            "last_activity": 1622844800,
+            "role": "admin",
+            "status": "enabled"
+        },
+        {
+            "id": 6,
+            "name": "Felipe Costa",
+            "email": "felipe.costa@niuco.com.br",
+            "last_activity": 1622931200,
+            "role": "viewer",
+            "status": "disabled"
+        },
+        {
+            "id": 7,
+            "name": "Gabriela Almeida",
+            "email": "gabriela.almeida@niuco.com.br",
+            "last_activity": 1623017600,
+            "role": "editor",
+            "status": "enabled"
+        },
+        {
+            "id": 8,
+            "name": "Henrique Lima",
+            "email": "henrique.lima@niuco.com.br",
+            "last_activity": 1623104000,
+            "role": "system",
+            "status": "enabled"
+        },
+        {
+            "id": 9,
+            "name": "Isabella Martins",
+            "email": "isabella.martins@niuco.com.br",
+            "last_activity": 1623190400,
+            "role": "viewer",
+            "status": "disabled"
+        },
+        {
+            "id": 10,
+            "name": "João Pedro",
+            "email": "joao.pedro@niuco.com.br",
+            "last_activity": 1623276800,
+            "role": "admin",
+            "status": "enabled"
+        },
+        {
+            "id": 11,
+            "name": "Karine Ribeiro",
+            "email": "karine.ribeiro@niuco.com.br",
+            "last_activity": 1623363200,
+            "role": "editor",
+            "status": "enabled"
+        },
+        {
+            "id": 12,
+            "name": "Lucas Rocha",
+            "email": "lucas.rocha@niuco.com.br",
+            "last_activity": 1623449600,
+            "role": "system",
+            "status": "disabled"
+        },
+        {
+            "id": 13,
+            "name": "Mariana Dias",
+            "email": "mariana.dias@niuco.com.br",
+            "last_activity": 1623536000,
+            "role": "viewer",
+            "status": "enabled"
+        },
+        {
+            "id": 14,
+            "name": "Nicolas Andrade",
+            "email": "nicolas.andrade@gmail.com",
+            "last_activity": 1623622400,
+            "role": "editor",
+            "status": "enabled"
+        },
+        {
+            "id": 15,
+            "name": "Olivia Fernandes",
+            "email": "olivia.fernandes@hotmail.com",
+            "last_activity": 1623708800,
+            "role": "admin",
+            "status": "disabled"
+        },
+        {
+            "id": 16,
+            "name": "Paulo Santos",
+            "email": "paulo.santos@outlook.com.br",
+            "last_activity": 1623795200,
+            "role": "viewer",
+            "status": "enabled"
+        },
+        {
+            "id": 17,
+            "name": "Quésia Lopes",
+            "email": "quesia.lopes@gmail.com",
+            "last_activity": 1623881600,
+            "role": "editor",
+            "status": "disabled"
+        },
+        {
+            "id": 18,
+            "name": "Rafael Gomes",
+            "email": "rafael.gomes@hotmail.com",
+            "last_activity": 1623968000,
+            "role": "admin",
+            "status": "enabled"
+        },
+        {
+            "id": 19,
+            "name": "Sofia Martins",
+            "email": "sofia.martins@gmail.com",
+            "last_activity": 1624054400,
+            "role": "viewer",
+            "status": "enabled"
+        },
+        {
+            "id": 20,
+            "name": "Tiago Silva",
+            "email": "tiago.silva@outlook.com.br",
+            "last_activity": 1624140800,
+            "role": "editor",
+            "status": "disabled"
+        },
+        {
+            "id": 21,
+            "name": "Ursula Lima",
+            "email": "ursula.lima@gmail.com",
+            "last_activity": 1624227200,
+            "role": "viewer",
+            "status": "enabled"
+        },
+        {
+            "id": 22,
+            "name": "Victor Ferreira",
+            "email": "victor.ferreira@hotmail.com",
+            "last_activity": 1624313600,
+            "role": "admin",
+            "status": "enabled"
+        },
+        {
+            "id": 23,
+            "name": "Wesley Andrade",
+            "email": "wesley.andrade@outlook.com.br",
+            "last_activity": 1624400000,
+            "role": "editor",
+            "status": "disabled"
+        },
+        {
+            "id": 24,
+            "name": "Xuxa Ribeiro",
+            "email": "xuxa.ribeiro@gmail.com",
+            "last_activity": 1624486400,
+            "role": "viewer",
+            "status": "enabled"
+        },
+        {
+            "id": 25,
+            "name": "Yasmin Costa",
+            "email": "yasmin.costa@hotmail.com",
+            "last_activity": 1624572800,
+            "role": "admin",
+            "status": "disabled"
+        },
+        {
+            "id": 26,
+            "name": "Zé Carlos",
+            "email": "ze.carlos@gmail.com",
+            "last_activity": 1624659200,
+            "role": "viewer",
+            "status": "enabled"
+        },
+        {
+            "id": 27,
+            "name": "Ana Clara",
+            "email": "ana.clara@outlook.com.br",
+            "last_activity": 1624745600,
+            "role": "editor",
+            "status": "enabled"
+        },
+        {
+            "id": 28,
+            "name": "Bernardo Lima",
+            "email": "bernardo.lima@hotmail.com",
+            "last_activity": 1624832000,
+            "role": "viewer",
+            "status": "disabled"
+        },
+        {
+            "id": 29,
+            "name": "Clara Soares",
+            "email": "clara.soares@gmail.com",
+            "last_activity": 1624918400,
+            "role": "admin",
+            "status": "enabled"
+        },
+        {
+            "id": 30,
+            "name": "Diego Almeida",
+            "email": "diego.almeida@outlook.com.br",
+            "last_activity": 1625004800,
+            "role": "editor",
+            "status": "disabled"
+        }
+    ]
+}
